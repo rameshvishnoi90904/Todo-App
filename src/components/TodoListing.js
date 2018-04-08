@@ -39,7 +39,7 @@ class ListScreen extends React.Component {
 		return {
 			headerTitle: (
 				<View style={{ paddingHorizontal: 15 }}>
-					<Text>{navigation.state.params.userName}s ToDo</Text>
+					<Text>{navigation.state.params.userName}'s ToDo</Text>
 				</View>
 			),
 			headerRight: (
@@ -137,7 +137,7 @@ class AddItemScreen extends React.Component {
 		return {
 			headerTitle: (
 				<View style={{ paddingHorizontal: 15 }}>
-					<Text>{navigation.state.params.userName}s ToDo</Text>
+					<Text>{navigation.state.params.userName}'s ToDo</Text>
 				</View>
 			),
 			headerRight: (
